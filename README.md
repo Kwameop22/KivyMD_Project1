@@ -6,5 +6,5 @@
 <img width="500" height="677" alt="Screenshot 2026-02-01 195105" src="https://github.com/user-attachments/assets/a5fbf8a7-bd60-47a2-af78-57fb8cafd69b" />
 
 
-# KivyMD_Project1
+# DESCRIPTION 
 This is an app which has both a "Login" and "Temperature Converter" interface. Basically you have to fill in the right info in the login interface to access the Temperature converter. NB: The username is "admin" and Password is "1234"
