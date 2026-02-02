@@ -11,7 +11,9 @@ MDScreenManager:
     name:"Login"
     MDCard:
         orientation:"vertical"
-        size_hint:.5,.8
+        size_hint:None,None
+        width:dp(320)
+        height: max(dp(450), self.minimum_height)
         pos_hint:{"center_x":.5,"center_y":.5}
         padding:dp(30)
         spacing:dp(20)
@@ -164,6 +166,7 @@ class LoginScreen(MDApp):
             login_screen.ids.label2.text = "Incorrect Username or Password"
             login_screen.ids.label2.color=(1,0,0,1)
             print("Access denied")
+
 
 
 
